@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Zombies</title>
+  <link rel="stylesheet" type="text/css" href="/css/zombies.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+
+<body>
+  <div class="target" style="min-height:500px;">
+    <h1><u>Mah Zombie Games!</u></h1>
+    <h2 id='hp'></h2>
+    <h2 id='zkillcount'></h2>
+    <h2 id='position'>Position: </h2>
+  </div>
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <script type="text/javascript" src="/js/zombies.js"></script>
+  <div style="display:none;">
+    <img id="zombie" src="imgs/zombie.png">
+    <img id="player" src="imgs/player.jpg">
+    <img id="block" src="imgs/grass.jpg">
+    <img id="bullets" src="imgs/bullets.png">
+  </div>
+  <div style="position:relative;width:267px;height:25px;overflow:hidden;">
+    <audio id="audio" controls loop autoplay="autoplay">
+      <source src="audio/johnstalvern.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+</div>
+</body>
+
+</html>
